@@ -1,0 +1,6 @@
+.header {
+  background-color: var(--gray-700);
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
