@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: 70rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding: 0 15rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    padding: 0 2rem;
+  }
+}
