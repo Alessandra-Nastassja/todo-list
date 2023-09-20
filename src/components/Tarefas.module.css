@@ -1,0 +1,30 @@
+.tarefasContent {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #333333;
+}
+
+.tarefasCriadas, .tarefasConcluidas {
+  display: flex;
+  gap: 1rem;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tarefasCriadas p {
+  color: var(--blue-300);
+}
+
+.tarefasConcluidas p {
+  color: var(--purple-300);
+}
+
+.tarefasCriadas span, .tarefasConcluidas span {
+  color: var(--white);
+  background-color: var(--gray-400);
+  border-radius: 15px;
+  padding: 5px 10px;
+}
