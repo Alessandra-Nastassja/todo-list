@@ -2,9 +2,8 @@
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  position: absolute;
-  top: 15%;
-  width: 51%;
+  position: relative;
+  top: -50%;
 }
 
 input {
