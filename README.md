@@ -5,7 +5,7 @@
 </h1>
 <p align="center">Desafio técnico da @rocketseat</p>
 <p align="center">
-  <a href="https://wearism.netlify.app/" target="_black">Demo</a>
+  <a href="https://todolist.netlify.app/" target="_black">Demo</a>
 </p>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/repo-size/Alessandra-Nastassja/todo-list?color=%231E6F9F">
