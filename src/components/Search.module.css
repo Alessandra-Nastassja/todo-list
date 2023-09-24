@@ -13,6 +13,7 @@ input[type=text] {
   border: none;
   padding: 0.5rem;
   background-color: var(--gray-500);
+  color: var(--white)
 }
 
 .buttonCriarTarefa {

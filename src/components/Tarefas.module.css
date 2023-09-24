@@ -9,7 +9,7 @@
 
 .tarefasCriadas, .tarefasConcluidas {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   font-weight: bold;
   font-size: 14px;
   align-items: baseline;
