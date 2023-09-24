@@ -15,7 +15,7 @@ input[type=text] {
   background-color: var(--gray-500);
 }
 
-button {
+.buttonCriarTarefa {
   width: 90px;
   border-radius: 8px;
   border: none;
@@ -26,4 +26,9 @@ button {
   justify-content: center;
   align-items: center;
   gap: 0.3rem;
+}
+
+.buttonCriarTarefa:hover {
+  background-color: var(--blue-300);
+  cursor: pointer;
 }

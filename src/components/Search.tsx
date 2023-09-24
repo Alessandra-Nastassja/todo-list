@@ -8,7 +8,7 @@ export function Search() {
         <input 
           type="text" 
           placeholder='Adicione uma nova tarefa' />
-        <button type="submit">
+        <button type="submit" className={styles.buttonCriarTarefa}>
           Criar
           <PlusCircle size={16} /> 
         </button>

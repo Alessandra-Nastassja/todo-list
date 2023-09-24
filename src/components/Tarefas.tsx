@@ -21,10 +21,15 @@ export function Tarefas(){
       </div>
       <div className={styles.comTarefas}>
         <div className={styles.textTarefa}>
+        <label className={styles.container}>
           <input type="checkbox" />
-          <p>Integer urna interdum massa libero auctor neque turpis turpis semper. Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
+          <span className={styles.checkmark}></span>
+        </label>
+          <p>Integer urna interdum massa libero auctor neque turpis turpis semper.</p>
         </div>
-        <Trash size={16} />
+        <button className={styles.buttonTrashTarefas}>
+          <Trash size={16} />
+        </button>
       </div>
     </section>
   )
