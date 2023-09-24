@@ -1,3 +1,4 @@
+import { PlusCircle } from 'phosphor-react';
 import styles from './Search.module.css';
 
 export function Search() {
@@ -7,7 +8,10 @@ export function Search() {
         <input 
           type="text" 
           placeholder='Adicione uma nova tarefa' />
-        <button type="submit">Criar</button>
+        <button type="submit">
+          Criar
+          <PlusCircle size={16} /> 
+        </button>
       </div>
     </section>
   )

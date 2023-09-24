@@ -1,5 +1,5 @@
 .tarefasContent {
-  margin: 1rem 0;
+  margin: 2rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,9 +30,28 @@
 }
 
 .semTarefas {
-  display: flex;
+  /* display: flex; */
+  display: none;
   flex-direction: column;
   align-items: center;
   color: var(--gray-300);
   margin: 3rem 0;
+}
+
+.comTarefas {
+  display: flex;
+  align-items: center;
+  background: var(--gray-500);
+  padding: 2rem;
+  color: var(--gray-100);
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.comTarefas + .comTarefas {
+  margin: 2rem 0;
+}
+.textTarefa {
+  display: flex;
+  gap: 1rem;
+  max-width: 90%;
 }
